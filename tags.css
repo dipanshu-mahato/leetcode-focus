@@ -1,0 +1,16 @@
+/* topic button below question name */
+div.hover\:opacity-80.text-sd-secondary-foreground.hover\:text-text-primary.hover\:bg-fill-primary.transition-colors.cursor-pointer.bg-fill-secondary.rounded-full.gap-1.py-1.px-2.text-caption.justify-center.items-center.inline-flex.relative:nth-of-type(
+    2
+  ) {
+  display: none !important;
+}
+
+/* topic row */
+.gap-3.flex-col.flex.mt-6 > div:nth-of-type(4) > .flex-col.flex {
+  display: none !important;
+}
+
+/* line above topic row */
+hr.dark\:border-dark-divider-3.border-divider-3:nth-of-type(2) {
+  display: none !important;
+}

@@ -1,0 +1,19 @@
+/* diffulty text */
+.dark\:text-difficulty-medium,
+.text-sd-medium,
+.text-sd-hard,
+.text-sd-easy,
+.dark\:text-difficulty-hard,
+.dark\:text-difficulty-easy,
+.dark\:text-dark-yellow.text-yellow.font-medium,
+.dark\:text-dark-olive.text-olive.font-medium.text-xs,
+.dark\:text-dark-pink.text-pink.font-medium.text-xs {
+  display: none !important;
+}
+
+/* difficulty dots */
+.dark\:bg-dark-olive.bg-olive.rounded-full.w-\[5px\].h-\[5px\],
+.dark\:bg-dark-pink.bg-pink.rounded-full.w-\[5px\].h-\[5px\],
+.dark\:bg-dark-yellow.bg-yellow.rounded-full.w-\[5px\].h-\[5px\] {
+  display: none !important;
+}

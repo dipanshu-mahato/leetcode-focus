@@ -1,0 +1,34 @@
+{
+  "manifest_version": 2,
+  "name": "LeetCode Focus Filters",
+  "version": "1.0.7",
+  "author": "Dipanshu",
+  "description": "Toggle filters individually on LeetCode.",
+
+  "permissions": [
+    "tabs",
+    "storage",
+    "https://leetcode.com/*",
+    "https://www.leetcode.com/*"
+  ],
+
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": true
+  },
+
+  "browser_action": {
+    "default_popup": "popup.html"
+  },
+
+  "content_scripts": [
+    {
+      "matches": [
+        "https://leetcode.com/*",
+        "https://www.leetcode.com/*"
+      ],
+      "js": ["content.js"],
+      "run_at": "document_start"
+    }
+  ]
+}

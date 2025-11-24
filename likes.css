@@ -1,0 +1,4 @@
+.gap-3.flex-col.flex.mt-6 > .items-center.flex-wrap.flex,
+.dark\:bg-fill-secondary.bg-fill-secondary.rounded-lg.overflow-hidden.flex.mr-1 {
+  display: none !important;
+}
